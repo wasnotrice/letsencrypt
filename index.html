@@ -36,21 +36,25 @@
     .content {
       background-color: #33333366;
       position: relative;
-      padding 0 1em;
+      padding: 0 1em;
     }
 
-    #actions {
+    .actions {
       display: inline-block;
       width: 48.5%;
       text-align: right;
       margin-right: 1%;
+    }
+
+    .actions.hidden {
+      display: none;
     }
   </style>
 </head>
 <body class="http">
   <div class="content">
     <span class="title">Hello, HTTP</span>
-    <form id="actions" action="#">
+    <form class="actions" action="#">
       <input type="checkbox" id="simulate-https" />
       <label for="simulate-https">simulate <code>https</code></label>
     </form>
@@ -58,7 +62,7 @@
   <script type="text/javascript">
     function show(options) {
       document.querySelector('body').className = options.body
-      document.querySelectorAll('h1, title').forEach(function (el) {
+      document.querySelectorAll('.title, title').forEach(function (el) {
         el.innerHTML = options.title
       })
     }
@@ -86,6 +90,7 @@
 
     if (document.location.protocol === "https:") {
       showHTTPS()
+      document.querySelector(".actions").className = 'actions hidden'
     }
   </script>
 </body>
