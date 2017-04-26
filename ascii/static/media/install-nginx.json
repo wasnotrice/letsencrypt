@@ -1,0 +1,1730 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 187.102675,
+  "command": "/bin/bash --rcfile /Users/eric/Dropbox/talks/letsencrypt/.ascii-bashrc",
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color-italic",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.010945,
+      "\u001b[?1034hbash-3.2$ "
+    ],
+    [
+      0.932105,
+      "s"
+    ],
+    [
+      0.216322,
+      "s"
+    ],
+    [
+      0.071732,
+      "h"
+    ],
+    [
+      0.103328,
+      " "
+    ],
+    [
+      0.12058,
+      "e"
+    ],
+    [
+      0.079453,
+      "r"
+    ],
+    [
+      0.040121,
+      "i"
+    ],
+    [
+      0.168214,
+      "c"
+    ],
+    [
+      0.372057,
+      "@"
+    ],
+    [
+      2.020457,
+      "h"
+    ],
+    [
+      0.103249,
+      "t"
+    ],
+    [
+      0.16815,
+      "t"
+    ],
+    [
+      0.079796,
+      "p"
+    ],
+    [
+      0.3628,
+      "."
+    ],
+    [
+      2.246427,
+      "c"
+    ],
+    [
+      0.055708,
+      "i"
+    ],
+    [
+      0.159078,
+      "t"
+    ],
+    [
+      0.104543,
+      "i"
+    ],
+    [
+      0.184274,
+      "z"
+    ],
+    [
+      0.088393,
+      "e"
+    ],
+    [
+      0.135692,
+      "n"
+    ],
+    [
+      0.255948,
+      "."
+    ],
+    [
+      0.296959,
+      "i"
+    ],
+    [
+      0.079075,
+      "o"
+    ],
+    [
+      0.888007,
+      "\r\n"
+    ],
+    [
+      1.314658,
+      "Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-72-generic x86_64)\r\n\r\n"
+    ],
+    [
+      0.006892,
+      " * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n"
+    ],
+    [
+      0.051942,
+      "\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\r\n\r\n0 packages can be updated.\r\n0 updates are security updates.\r\n\r\n\r\nLast login: Wed Apr 26 13:07:45 2017 from 75.134.153.78\r\r\n"
+    ],
+    [
+      0.129815,
+      "\u001b]0;eric@http: ~\u0007eric@http:~$ "
+    ],
+    [
+      4.474342,
+      "s"
+    ],
+    [
+      0.110353,
+      "u"
+    ],
+    [
+      0.318828,
+      "d"
+    ],
+    [
+      0.150472,
+      "o"
+    ],
+    [
+      0.187851,
+      " "
+    ],
+    [
+      0.170732,
+      "a"
+    ],
+    [
+      0.099085,
+      "p"
+    ],
+    [
+      0.387258,
+      "t"
+    ],
+    [
+      0.391162,
+      "-"
+    ],
+    [
+      0.13184,
+      "g"
+    ],
+    [
+      0.170872,
+      "e"
+    ],
+    [
+      0.068795,
+      "t"
+    ],
+    [
+      0.339341,
+      " "
+    ],
+    [
+      1.049634,
+      "u"
+    ],
+    [
+      0.058737,
+      "p"
+    ],
+    [
+      0.278822,
+      "g"
+    ],
+    [
+      0.794631,
+      "\b \b"
+    ],
+    [
+      0.103632,
+      "d"
+    ],
+    [
+      0.209145,
+      "a"
+    ],
+    [
+      0.096257,
+      "t"
+    ],
+    [
+      0.097482,
+      "e"
+    ],
+    [
+      0.403493,
+      "\r\n[sudo] password for eric: "
+    ],
+    [
+      5.242636,
+      "\r\n\r0% [Working]"
+    ],
+    [
+      0.003261,
+      "\r            \rHit:1 http://mirrors.digitalocean.com/ubuntu xenial InRelease\r\n\r0% [Connecting to security.ubuntu.com (91.189.88.149)]\r                                                      \rGet:2 http://mirrors.digitalocean.com/ubuntu xenial-updates InRelease [102 kB]\r\n"
+    ],
+    [
+      0.022416,
+      "\r                                                      \r"
+    ],
+    [
+      0.030917,
+      "Get:3 http://mirrors.digitalocean.com/ubuntu xenial-backports InRelease [102 kB]\r\n\r0% [3 InRelease 102 kB/102 kB 100%] [Connecting to security.ubuntu.com (91.189.\r                                                                               \r0% [1 InRelease gpgv 247 kB] [Waiting for headers]"
+    ],
+    [
+      0.034505,
+      "\r                                                  \rGet:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]\r\n\r0% [1 InRelease gpgv 247 kB] [4 InRelease 14.2 kB/102 kB 14%]"
+    ],
+    [
+      0.154446,
+      "\r                                                             \r0% [4 InRelease 101 kB/102 kB 99%]\r0% [2 InRelease gpgv 102 kB] [Waiting for headers] [4 InRelease 101 kB/102 kB 9"
+    ],
+    [
+      0.004245,
+      "\r                                                                               \rGet:5 http://mirrors.digitalocean.com/ubuntu xenial/main Sources [868 kB]\r\n"
+    ],
+    [
+      0.000972,
+      "\r0% [2 InRelease gpgv 102 kB] [5 Sources 56.9 kB/868 kB 7%] [4 InRelease 101 kB/"
+    ],
+    [
+      0.141651,
+      "\r                                                                               \r0% [2 InRelease gpgv 102 kB] [5 Sources 712 kB/868 kB 82%]\r                                                          \r0% [2 InRelease gpgv 102 kB]\r                            \rGet:6 http://mirrors.digitalocean.com/ubuntu xenial/restricted Sources [4,808 B]"
+    ],
+    [
+      2.8e-05,
+      "\r\n\r0% [2 InRelease gpgv 102 kB] [Waiting for headers]\r                                                  \rGet:7 http://mirrors.digitalocean.com/ubuntu xenial/universe Sources [7,728 kB]\r\n"
+    ],
+    [
+      0.054687,
+      "\r0% [2 InRelease gpgv 102 kB] [7 Sources 101 kB/7,728 kB 1%]\r0% [5 Sources store 0 B] [2 InRelease gpgv 102 kB] [7 Sources 101 kB/7,728 kB 1"
+    ],
+    [
+      0.341563,
+      "\r                                                                               \r"
+    ],
+    [
+      0.004315,
+      "0% [5 Sources store 0 B] [7 Sources 3,444 kB/7,728 kB 45%]\r0% [5 Sources store 0 B] [3 InRelease gpgv 102 kB] [7 Sources 3,509 kB/7,728 kB"
+    ],
+    [
+      0.510023,
+      "\r0% [5 Sources store 0 B] [3 InRelease gpgv 102 kB] [7 Sources 7,048 kB/7,728 kB"
+    ],
+    [
+      0.037169,
+      "\r                                                                               \r"
+    ],
+    [
+      0.005589,
+      "0% [5 Sources store 0 B] [7 Sources 7,376 kB/7,728 kB 95%]"
+    ],
+    [
+      0.000816,
+      "\r0% [5 Sources store 0 B] [4 InRelease gpgv 102 kB] [7 Sources 7,376 kB/7,728 kB"
+    ],
+    [
+      0.095206,
+      "\r                                                                               \r0% [4 InRelease gpgv 102 kB] [7 Sources 7,598 kB/7,728 kB 98%]\r0% [6 Sources store 0 B] [4 InRelease gpgv 102 kB] [7 Sources 7,728 kB/7,728 kB\r                                                                               \r0% [4 InRelease gpgv 102 kB] [7 Sources 7,728 kB/7,728 kB 100%]\r                                                               \r"
+    ],
+    [
+      4.1e-05,
+      "0% [4 InRelease gpgv 102 kB]\r0% [7 Sources store 0 B] [4 InRelease gpgv 102 kB]\r                                                  \rGet:8 http://mirrors.digitalocean.com/ubuntu xenial/multiverse Sources [179 kB]\r\n\r0% [7 Sources store 0 B] [4 InRelease gpgv 102 kB] [8 Sources 0 B/179 kB 0%]"
+    ],
+    [
+      0.052707,
+      "\r                                                                            \r0% [7 Sources store 0 B] [4 InRelease gpgv 102 kB]\r                                                  \rGet:9 http://mirrors.digitalocean.com/ubuntu xenial/universe amd64 Packages [7,532 kB]\r\n\r0% [7 Sources store 0 B] [4 InRelease gpgv 102 kB] [9 Packages 0 B/7,532 kB 0%]"
+    ],
+    [
+      0.602,
+      "\r                                                                               \r56% [7 Sources store 0 B] [9 Packages 3,925 kB/7,532 kB 52%]\r                                                            \rGet:10 http://security.ubuntu.com/ubuntu xenial-security/main Sources [68.2 kB]\r\n\r59% [7 Sources store 0 B] [9 Packages 4,777 kB/7,532 kB 63%] [10 Sources 14.3 k"
+    ],
+    [
+      0.046013,
+      "\r                                                                               \r64% [7 Sources store 0 B] [9 Packages 6,160 kB/7,532 kB 82%]"
+    ],
+    [
+      0.072478,
+      "\r                                                            \rGet:11 http://security.ubuntu.com/ubuntu xenial-security/restricted Sources [2,600 B]\r\n\r67% [7 Sources store 0 B] [9 Packages 6,947 kB/7,532 kB 92%] [Waiting for heade"
+    ],
+    [
+      0.064555,
+      "\r                                                                               \r69% [7 Sources store 0 B] [Waiting for headers]"
+    ],
+    [
+      0.00323,
+      "\r                                               \rGet:12 http://mirrors.digitalocean.com/ubuntu xenial/universe Translation-en [4,354 kB]\r\n\r69% [7 Sources store 0 B] [12 Translation-en 0 B/4,354 kB 0%] [Waiting for head"
+    ],
+    [
+      0.005606,
+      "\r                                                                               \rGet:13 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [26.3 kB]\r\n\r69% [7 Sources store 0 B] [12 Translation-en 62.8 kB/4,354 kB 1%] [13 Sources 2"
+    ],
+    [
+      0.03918,
+      "\r                                                                               \r"
+    ],
+    [
+      0.002024,
+      "70% [7 Sources store 0 B] [12 Translation-en 325 kB/4,354 kB 7%]"
+    ],
+    [
+      0.053329,
+      "\r                                                                \rGet:14 http://security.ubuntu.com/ubuntu xenial-security/multiverse Sources [1,144 B]\r\n"
+    ],
+    [
+      0.008556,
+      "\r72% [7 Sources store 0 B] [12 Translation-en 915 kB/4,354 kB 21%] [Waiting for "
+    ],
+    [
+      0.098694,
+      "\r                                                                               \rGet:15 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [255 kB]\r\n\r75% [7 Sources store 0 B] [12 Translation-en 1,767 kB/4,354 kB 41%] [15 Package"
+    ],
+    [
+      0.127516,
+      "\r                                                                               \r81% [7 Sources store 0 B] [12 Translation-en 3,314 kB/4,354 kB 76%]"
+    ],
+    [
+      0.076348,
+      "\r                                                                   \rGet:16 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [108 kB]\r\n\r84% [7 Sources store 0 B] [12 Translation-en 4,126 kB/4,354 kB 95%] [Waiting fo"
+    ],
+    [
+      0.017833,
+      "\r                                                                               \r85% [7 Sources store 0 B] [Waiting for headers]"
+    ],
+    [
+      0.009702,
+      "\r                                               \rGet:17 http://mirrors.digitalocean.com/ubuntu xenial/multiverse amd64 Packages [144 kB]\r\n\r85% [7 Sources store 0 B] [17 Packages 65.5 kB/144 kB 46%] [Waiting for headers"
+    ],
+    [
+      0.004231,
+      "\r                                                                               \r85% [7 Sources store 0 B] [Waiting for headers]"
+    ],
+    [
+      0.009506,
+      "\r                                               \r"
+    ],
+    [
+      0.011858,
+      "Get:18 http://mirrors.digitalocean.com/ubuntu xenial/multiverse Translation-en [106 kB]\r\n\r85% [7 Sources store 0 B] [18 Translation-en 0 B/106 kB 0%] [Waiting for header\r                                                                               \r86% [7 Sources store 0 B] [Waiting for headers]\r                                               \rGet:19 http://mirrors.digitalocean.com/ubuntu xenial-updates/main Sources [242 kB]\r\n\r86% [7 Sources store 0 B] [19 Sources 0 B/242 kB 0%] [Waiting for headers]"
+    ],
+    [
+      0.059251,
+      "\r                                                                          \r"
+    ],
+    [
+      0.000107,
+      "Get:20 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [109 kB]\r\n\r87% [7 Sources store 0 B] [19 Sources 242 kB/242 kB 100%] [20 Packages 65.5 kB/\r                                                                               \r87% [7 Sources store 0 B] [19 Sources 242 kB/242 kB 100%]\r                                                         \r87% [7 Sources store 0 B]\r                         \rGet:21 http://mirrors.digitalocean.com/ubuntu xenial-updates/restricted Sources [2,996 B]\r\n\r87% [7 Sources store 0 B] [21 Sources 0 B/2,996 B 0%]\r                                                     \r87% [7 Sources store 0 B]\r                         \rGet:22 http://mirrors.digitalocean.com/ubuntu xenial-updates/universe Sources [151 kB]\r\n\r87% [7 Sources store 0 B] [22 Sources 0 B/151 kB 0%] [Waiting for headers]\r                                                                          \r87% [7 Sources store 0 B] [Waiting for headers]\r                                               \rGet:23 http://mir"
+    ],
+    [
+      3.8e-05,
+      "rors.digitalocean.com/ubuntu xenial-updates/multiverse Sources [5,268 B]\r\n\r87% [7 Sources store 0 B] [23 Sources 0 B/5,268 B 0%] [Waiting for headers]\r                                                                           \r87% [7 Sources store 0 B] [Waiting for headers]\r                                               \rGet:24 http://mirrors.digitalocean.com/ubuntu xenial-updates/main amd64 Packages [521 kB]\r\n\r87% [7 Sources store 0 B] [24 Packages 0 B/521 kB 0%] [Waiting for headers]"
+    ],
+    [
+      0.033623,
+      "\r                                                                           \r89% [7 Sources store 0 B] [Waiting for headers]"
+    ],
+    [
+      0.019269,
+      "\r                                               \rGet:25 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [55.8 kB]\r\n\r89% [7 Sources store 0 B] [Waiting for headers] [Waiting for headers]"
+    ],
+    [
+      0.021136,
+      "\r                                                                     \rGet:26 http://mirrors.digitalocean.com/ubuntu xenial-updates/main Translation-en [210 kB]\r\n\r89% [7 Sources store 0 B] [26 Translation-en 0 B/210 kB 0%] [Waiting for header"
+    ],
+    [
+      0.017218,
+      "\r                                                                               \r90% [7 Sources store 0 B] [Waiting for headers]"
+    ],
+    [
+      0.004202,
+      "\r                                               \rGet:27 http://mirrors.digitalocean.com/ubuntu xenial-updates/universe amd64 Packages [459 kB]\r\n\r90% [7 Sources store 0 B] [27 Packages 0 B/459 kB 0%] [Waiting for headers]"
+    ],
+    [
+      0.020502,
+      "\r                                                                           \rGet:28 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [2,748 B]\r\n\r91% [7 Sources store 0 B] [27 Packages 223 kB/459 kB 49%] [Waiting for headers]"
+    ],
+    [
+      0.224338,
+      "\r                                                                               \r92% [7 Sources store 0 B] [Waiting for headers]\r                                               \rGet:29 http://mirrors.digitalocean.com/ubuntu xenial-updates/universe Translation-en [179 kB]\r\n\r92% [7 Sources store 0 B] [29 Translation-en 0 B/179 kB 0%] [Waiting for header\r                                                                               \r"
+    ],
+    [
+      9e-05,
+      "92% [7 Sources store 0 B] [Waiting for headers]\r                                               \rGet:30 http://mirrors.digitalocean.com/ubuntu xenial-updates/multiverse amd64 Packages [8,916 B]\r\n\r92% [7 Sources store 0 B] [Waiting for headers] [Waiting for headers]\r                                                                     \rGet:31 http://mirrors.digitalocean.com/ubuntu xenial-updates/multiverse Translation-en [4,136 B]\r\n\r92% [7 Sources store 0 B] [31 Translation-en 0 B/4,136 B 0%] [Waiting for heade\r                                                                               \r92% [7 Sources store 0 B] [Waiting for headers]\r                                               \rGet:32 http://mirrors.digitalocean.com/ubuntu xenial-backports/main Sources [3,304 B]\r\n\r92% [7 Sources store 0 B] [Waiting for headers] [Waiting for headers]\r                                                                     \rGet:33 http://mirrors.digitalocean.com/ubuntu xenial-backports/universe Sources [1,868 B]\r\n\r92% [7 Sources"
+    ],
+    [
+      7.7e-05,
+      " store 0 B] [Waiting for headers] [Waiting for headers]\r                                                                     \rGet:34 http://mirrors.digitalocean.com/ubuntu xenial-backports/main amd64 Packages [4,684 B]\r\n"
+    ],
+    [
+      0.059093,
+      "\r92% [7 Sources store 0 B] [Waiting for headers] [Waiting for headers]\r                                                                     \rGet:35 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en [1,232 B]\r\n\r                                                                     \r92% [7 Sources store 0 B] [Waiting for headers]\r                                               \rGet:36 http://mirrors.digitalocean.com/ubuntu xenial-backports/main Translation-en [3,216 B]\r\n\r92% [7 Sources store 0 B] [Waiting for headers]\r                                               \rGet:37 http://mirrors.digitalocean.com/ubuntu xenial-backports/universe amd64 Packages [2,512 B]\r\n\r92% [7 Sources store 0 B] [37 Packages 0 B/2,512 B 0%]\r                                                      \r92% [7 Sources store 0 B]\r                         \rGet:38 http://mirrors.digitalocean.com/ubuntu xenial-backports/universe Translation-en [1,216 B]\r\n\r92% [7 Sources store 0 B]"
+    ],
+    [
+      0.408363,
+      "\r92% [7 Sources store 0 B]"
+    ],
+    [
+      0.614446,
+      "\r92% [7 Sources store 0 B]"
+    ],
+    [
+      0.359263,
+      "\r92% [7 Sources store 0 B]"
+    ],
+    [
+      0.415498,
+      "\r92% [7 Sources store 0 B]"
+    ],
+    [
+      0.840429,
+      "\r92% [7 Sources store 0 B]"
+    ],
+    [
+      0.141564,
+      "\r93% [Working]                                                     3,905 kB/s 0s\r93% [8 Sources store 0 B]                                         3,905 kB/s 0s"
+    ],
+    [
+      0.070367,
+      "\r93% [Working]                                                     3,905 kB/s 0s\r93% [10 Sources store 0 B]                                        3,905 kB/s 0s"
+    ],
+    [
+      0.0085,
+      "\r93% [Working]                                                     3,905 kB/s 0s\r93% [11 Sources store 0 B]                                        3,905 kB/s 0s"
+    ],
+    [
+      0.00255,
+      "\r93% [Working]                                                     3,905 kB/s 0s\r93% [9 Packages store 0 B]                                        3,905 kB/s 0s"
+    ],
+    [
+      0.618145,
+      "\r93% [9 Packages store 0 B]                                        3,905 kB/s 0s"
+    ],
+    [
+      0.423934,
+      "\r93% [9 Packages store 0 B]                                        3,905 kB/s 0s"
+    ],
+    [
+      0.519324,
+      "\r93% [9 Packages store 0 B]                                        3,905 kB/s 0s"
+    ],
+    [
+      0.760972,
+      "\r93% [9 Packages store 0 B]                                        3,905 kB/s 0s"
+    ],
+    [
+      0.227972,
+      "\r93% [9 Packages store 0 B]                                        3,905 kB/s 0s"
+    ],
+    [
+      0.496585,
+      "\r93% [9 Packages store 0 B]                                        3,905 kB/s 0s"
+    ],
+    [
+      0.324373,
+      "\r94% [Working]                                                     3,905 kB/s 0s\r94% [13 Sources store 0 B]                                        3,905 kB/s 0s\r94% [Working]                                                     3,905 kB/s 0s\r94% [14 Sources store 0 B]                                        3,905 kB/s 0s\r94% [Working]                                                     3,905 kB/s 0s\r94% [15 Packages store 0 B]                                       3,905 kB/s 0s"
+    ],
+    [
+      0.011685,
+      "\r94% [Working]                                                     3,905 kB/s 0s\r94% [16 Translation-en store 0 B]                                 3,905 kB/s 0s"
+    ],
+    [
+      0.072453,
+      "\r95% [Working]                                                     3,905 kB/s 0s"
+    ],
+    [
+      0.001489,
+      "\r95% [12 Translation-en store 0 B]                                 3,905 kB/s 0s"
+    ],
+    [
+      0.503515,
+      "\r95% [12 Translation-en store 0 B]                                 3,905 kB/s 0s"
+    ],
+    [
+      0.506674,
+      "\r95% [12 Translation-en store 0 B]                                 3,905 kB/s 0s"
+    ],
+    [
+      0.555391,
+      "\r95% [12 Translation-en store 0 B]                                 3,905 kB/s 0s"
+    ],
+    [
+      0.118471,
+      "\r95% [Working]                                                     3,905 kB/s 0s\r95% [17 Packages store 0 B]                                       3,905 kB/s 0s"
+    ],
+    [
+      0.050302,
+      "\r95% [Working]                                                     3,905 kB/s 0s\r95% [18 Translation-en store 0 B]                                 3,905 kB/s 0s"
+    ],
+    [
+      0.034767,
+      "\r95% [Working]                                                     3,905 kB/s 0s\r95% [20 Packages store 0 B]                                       3,905 kB/s 0s"
+    ],
+    [
+      0.242413,
+      "\r95% [Working]                                                     3,905 kB/s 0s\r95% [19 Sources store 0 B]                                        3,905 kB/s 0s\r96% [Working]                                                     3,905 kB/s 0s\r96% [21 Sources store 0 B]                                        3,905 kB/s 0s\r96% [Working]                                                     3,905 kB/s 0s\r96% [22 Sources store 0 B]                                        3,905 kB/s 0s\r96% [Working]                                                     3,905 kB/s 0s\r96% [23 Sources store 0 B]                                        3,905 kB/s 0s\r96% [Working]                                                     3,905 kB/s 0s\r96% [24 Packages store 0 B]                                       3,905 kB/s 0s"
+    ],
+    [
+      0.214053,
+      "\r97% [Working]                                                     3,905 kB/s 0s\r97% [25 Translation-en store 0 B]                                 3,905 kB/s 0s"
+    ],
+    [
+      0.026936,
+      "\r97% [Working]                                                     3,905 kB/s 0s\r97% [26 Translation-en store 0 B]                                 3,905 kB/s 0s"
+    ],
+    [
+      0.151578,
+      "\r97% [Working]                                                     3,905 kB/s 0s\r97% [28 Packages store 0 B]                                       3,905 kB/s 0s\r97% [Working]                                                     3,905 kB/s 0s\r97% [27 Packages store 0 B]                                       3,905 kB/s 0s"
+    ],
+    [
+      0.229138,
+      "\r                                                                               \r98% [Working]\r98% [29 Translation-en store 0 B]"
+    ],
+    [
+      0.064968,
+      "\r                                 \r98% [Working]\r98% [30 Packages store 0 B]"
+    ],
+    [
+      0.003396,
+      "\r                           \r"
+    ],
+    [
+      3.3e-05,
+      "98% [Working]\r98% [31 Translation-en store 0 B]"
+    ],
+    [
+      0.003194,
+      "\r                                 \r98% [Working]\r98% [32 Sources store 0 B]"
+    ],
+    [
+      0.002225,
+      "\r                          \r99% [Working]"
+    ],
+    [
+      0.001955,
+      "\r99% [33 Sources store 0 B]"
+    ],
+    [
+      0.001449,
+      "\r                          \r99% [Working]"
+    ],
+    [
+      0.045331,
+      "\r99% [34 Packages store 0 B]\r                           \r99% [Working]\r99% [35 Translation-en store 0 B]\r                                 \r99% [Working]\r99% [36 Translation-en store 0 B]\r                                 \r100% [Working]\r100% [37 Packages store 0 B]\r                            \r100% [Working]\r100% [38 Translation-en store 0 B]\r                                  \r100% [Working]\r              \rFetched 23.7 MB in 12s (1,920 kB/s)\r\n"
+    ],
+    [
+      5.071746,
+      "\rReading package lists... 0%\r"
+    ],
+    [
+      0.01598,
+      "\rReading package lists... 0%\r"
+    ],
+    [
+      0.032001,
+      "\rReading package lists... 1%\r"
+    ],
+    [
+      0.427103,
+      "\rReading package lists... 7%\r\rReading package lists... 7%\r\rReading package lists... 11%\r\rReading package lists... 11%\r\rReading package lists... 11%\r\rReading package lists... 11%\r\rReading package lists... 11%\r\rReading package lists... 11%\r"
+    ],
+    [
+      0.300241,
+      "\rReading package lists... 26%\r"
+    ],
+    [
+      0.747866,
+      "\rReading package lists... 49%\r"
+    ],
+    [
+      0.240437,
+      "\rReading package lists... 57%\r\rReading package lists... 57%\r"
+    ],
+    [
+      0.238531,
+      "\rReading package lists... 82%\r"
+    ],
+    [
+      0.000779,
+      "\rReading package lists... 82%\r"
+    ],
+    [
+      0.030206,
+      "\rReading package lists... 83%\r\rReading package lists... 83%\r"
+    ],
+    [
+      0.00514,
+      "\rReading package lists... 83%\r\rReading package lists... 83%\r"
+    ],
+    [
+      0.10799,
+      "\rReading package lists... 87%\r\rReading package lists... 87%\r"
+    ],
+    [
+      0.020304,
+      "\rReading package lists... 89%\r\rReading package lists... 89%\r"
+    ],
+    [
+      0.000908,
+      "\rReading package lists... 89%\r\rReading package lists... 89%\r"
+    ],
+    [
+      0.001579,
+      "\rReading package lists... 90%\r\rReading package lists... 90%\r"
+    ],
+    [
+      0.029483,
+      "\rReading package lists... 91%\r"
+    ],
+    [
+      0.060902,
+      "\rReading package lists... 93%\r\rReading package lists... 93%\r"
+    ],
+    [
+      0.01722,
+      "\rReading package lists... 94%\r"
+    ],
+    [
+      0.001415,
+      "\rReading package lists... 94%\r"
+    ],
+    [
+      0.006142,
+      "\rReading package lists... 94%\r\rReading package lists... 94%\r\rReading package lists... 94%\r\rReading package lists... 94%\r\rReading package lists... 94%\r\rReading package lists... 94%\r\rReading package lists... 94%\r\rReading package lists... 94%\r"
+    ],
+    [
+      0.028791,
+      "\rReading package lists... 94%\r\rReading package lists... 94%\r\rReading package lists... 94%\r\rReading package lists... 94%\r\rReading package lists... 96%\r\rReading package lists... 96%\r"
+    ],
+    [
+      0.005427,
+      "\rReading package lists... 98%\r\rReading package lists... 98%\r\rReading package lists... 98%\r"
+    ],
+    [
+      0.013813,
+      "\rReading package lists... 98%\r\rReading package lists... 98%\r\rReading package lists... 98%\r\rReading package lists... 99%\r\rReading package lists... 99%\r"
+    ],
+    [
+      0.001232,
+      "\rReading package lists... 99%\r\rReading package lists... 99%\r"
+    ],
+    [
+      0.004831,
+      "\rReading package lists... 99%\r\rReading package lists... 99%\r"
+    ],
+    [
+      0.23368,
+      "\rReading package lists... 99%\r\rReading package lists... 99%\r"
+    ],
+    [
+      0.033642,
+      "\rReading package lists... Done\r\r\n"
+    ],
+    [
+      0.082288,
+      "\u001b]0;eric@http: ~\u0007eric@http:~$ "
+    ],
+    [
+      33.570187,
+      "s"
+    ],
+    [
+      0.107704,
+      "u"
+    ],
+    [
+      0.392808,
+      "d"
+    ],
+    [
+      0.471141,
+      "o"
+    ],
+    [
+      0.392842,
+      " "
+    ],
+    [
+      0.28201,
+      "a"
+    ],
+    [
+      0.373887,
+      "p"
+    ],
+    [
+      0.393097,
+      "t"
+    ],
+    [
+      0.188429,
+      "-"
+    ],
+    [
+      0.805497,
+      "g"
+    ],
+    [
+      0.105614,
+      "e"
+    ],
+    [
+      0.09754,
+      "t"
+    ],
+    [
+      0.508685,
+      " "
+    ],
+    [
+      0.337506,
+      "i"
+    ],
+    [
+      0.331404,
+      "n"
+    ],
+    [
+      0.486252,
+      "s"
+    ],
+    [
+      0.521274,
+      "t"
+    ],
+    [
+      0.41893,
+      "a"
+    ],
+    [
+      0.164695,
+      "l"
+    ],
+    [
+      0.23505,
+      "l"
+    ],
+    [
+      0.368926,
+      " "
+    ],
+    [
+      0.402663,
+      "n"
+    ],
+    [
+      0.924968,
+      "g"
+    ],
+    [
+      0.341328,
+      "i"
+    ],
+    [
+      0.233942,
+      "n"
+    ],
+    [
+      1.114529,
+      "x"
+    ],
+    [
+      0.861331,
+      "\r\n"
+    ],
+    [
+      0.032965,
+      "\rReading package lists... 0%\r"
+    ],
+    [
+      0.098053,
+      "\rReading package lists... 100%\r"
+    ],
+    [
+      0.003194,
+      "\rReading package lists... Done\r\r\n\rBuilding dependency tree... 0%\r\rBuilding dependency tree... 0%\r"
+    ],
+    [
+      0.077222,
+      "\rBuilding dependency tree... 50%\r\rBuilding dependency tree... 50%\r"
+    ],
+    [
+      0.330854,
+      "\rBuilding dependency tree       \r\r\n\rReading state information... 0%\r\rReading state information... 7%\r\rReading state information... Done\r\r\n"
+    ],
+    [
+      0.392314,
+      "The following additional packages will be installed:\r\n  fontconfig-config fonts-dejavu-core libfontconfig1 libgd3 libjbig0\r\n  libjpeg-turbo8 libjpeg8 libtiff5 libvpx3 libxpm4 libxslt1.1 nginx-common\r\n  nginx-core\r\nSuggested packages:\r\n"
+    ],
+    [
+      0.052879,
+      "  libgd-tools fcgiwrap nginx-doc ssl-cert\r\nThe following NEW packages will be installed:\r\n  fontconfig-config fonts-dejavu-core libfontconfig1 libgd3 libjbig0\r\n  libjpeg-turbo8 libjpeg8 libtiff5 libvpx3 libxpm4 libxslt1.1 nginx\r\n  nginx-common nginx-core\r\n0 upgraded, 14 newly installed, 0 to remove and 26 not upgraded.\r\nNeed to get 2,999 kB of archives.\r\nAfter this operation, 9,781 kB of additional disk space will be used.\r\nDo you want to continue? [Y/n] "
+    ],
+    [
+      1.818305,
+      "\r\n"
+    ],
+    [
+      0.008648,
+      "\r0% [Working]"
+    ],
+    [
+      0.217118,
+      "\r0% [Working]\r            \rGet:1 http://nyc2.mirrors.digitalocean.com/ubuntu xenial/main amd64 libjpeg-turbo8 amd64 1.4.2-0ubuntu3 [111 kB]\r\n\r0% [1 libjpeg-turbo8 0 B/111 kB 0%] [Waiting for headers]\r                                                         \r4% [Waiting for headers]"
+    ],
+    [
+      0.036287,
+      "\r4% [Waiting for headers]"
+    ],
+    [
+      0.001209,
+      "\r                        \rGet:2 http://nyc2.mirrors.digitalocean.com/ubuntu xenial/main amd64 libjbig0 amd64 2.1-3.1 [26.6 kB]\r\n\r4% [2 libjbig0 0 B/26.6 kB 0%] [Waiting for headers]"
+    ],
+    [
+      0.015226,
+      "\r                                                    \r7% [Waiting for headers]"
+    ],
+    [
+      0.062212,
+      "\r7% [Waiting for headers]"
+    ],
+    [
+      0.006411,
+      "\r                        \rGet:3 http://nyc2.mirrors.digitalocean.com/ubuntu xenial/main amd64 fonts-dejavu-core all 2.35-1 [1,039 kB]\r\n"
+    ],
+    [
+      0.000885,
+      "\r10% [3 fonts-dejavu-core 124 kB/1,039 kB 12%] [Waiting for headers]"
+    ],
+    [
+      0.06849,
+      "\r                                                                   \r36% [Waiting for headers]"
+    ],
+    [
+      0.007646,
+      "\r36% [Waiting for headers]\r                         \rGet:4 http://nyc2.mirrors.digitalocean.com/ubuntu xenial-updates/main amd64 fontconfig-config all 2.11.94-0ubuntu1.1 [49.9 kB]\r\n\r36% [4 fontconfig-config 0 B/49.9 kB 0%] [Waiting for headers]"
+    ],
+    [
+      0.002098,
+      "\r                                                              \r38% [Waiting for headers]"
+    ],
+    [
+      0.074796,
+      "\r38% [Waiting for headers]"
+    ],
+    [
+      0.002018,
+      "\r                         \rGet:5 http://nyc2.mirrors.digitalocean.com/ubuntu xenial-updates/main amd64 libfontconfig1 amd64 2.11.94-0ubuntu1.1 [131 kB]\r\n\r38% [5 libfontconfig1 0 B/131 kB 0%] [Waiting for headers]"
+    ],
+    [
+      0.006685,
+      "\r                                                          \r43% [Waiting for headers]"
+    ],
+    [
+      0.067228,
+      "\r43% [Waiting for headers]"
+    ],
+    [
+      0.001416,
+      "\r                         \r"
+    ],
+    [
+      0.000771,
+      "Get:6 http://nyc2.mirrors.digitalocean.com/ubuntu xenial/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2,194 B]"
+    ],
+    [
+      0.000836,
+      "\r\n\r43% [6 libjpeg8 0 B/2,194 B 0%] [Waiting for headers]\r                                                     \r45% [Waiting for headers]"
+    ],
+    [
+      0.074721,
+      "\r45% [Waiting for headers]"
+    ],
+    [
+      0.226511,
+      "\r45% [Waiting for headers] [Waiting for headers]\r                                               \rGet:7 http://nyc2.mirrors.digitalocean.com/ubuntu xenial-updates/main amd64 libtiff5 amd64 4.0.6-1ubuntu0.1 [146 kB]\r\n\r45% [7 libtiff5 0 B/146 kB 0%] [Waiting for headers]\r                                                    \r50% [Waiting for headers]\r                         \rGet:8 http://nyc2.mirrors.digitalocean.com/ubuntu xenial/main amd64 libvpx3 amd64 1.5.0-2ubuntu1 [732 kB]\r\n\r50% [8 libvpx3 0 B/732 kB 0%] [Waiting for headers]\r66% [8 libvpx3 590 kB/732 kB 81%] [Waiting for headers]\r                                                       \r"
+    ],
+    [
+      5.3e-05,
+      "71% [Waiting for headers]\r                         \rGet:9 http://nyc2.mirrors.digitalocean.com/ubuntu xenial-updates/main amd64 libxpm4 amd64 1:3.5.11-1ubuntu0.16.04.1 [33.8 kB]\r\n\r71% [9 libxpm4 0 B/33.8 kB 0%] [Waiting for headers]\r                                                    \r73% [Waiting for headers]"
+    ],
+    [
+      0.005272,
+      "\r73% [Waiting for headers]"
+    ],
+    [
+      0.047838,
+      "\r                         \rGet:10 http://nyc2.mirrors.digitalocean.com/ubuntu xenial-updates/main amd64 libgd3 amd64 2.1.1-4ubuntu0.16.04.6 [126 kB]\r\n\r73% [10 libgd3 0 B/126 kB 0%] [Waiting for headers]\r                                                   \r78% [Waiting for headers]"
+    ],
+    [
+      0.029898,
+      "\r78% [Waiting for headers]"
+    ],
+    [
+      0.000889,
+      "\r                         \rGet:11 http://nyc2.mirrors.digitalocean.com/ubuntu xenial/main amd64 libxslt1.1 amd64 1.1.28-2.1 [145 kB]"
+    ],
+    [
+      0.001142,
+      "\r\n\r78% [11 libxslt1.1 0 B/145 kB 0%] [Waiting for headers]"
+    ],
+    [
+      0.006378,
+      "\r                                                       \r84% [Waiting for headers]"
+    ],
+    [
+      0.070573,
+      "\r84% [Waiting for headers]"
+    ],
+    [
+      0.006723,
+      "\r                         \rGet:12 http://nyc2.mirrors.digitalocean.com/ubuntu xenial-updates/main amd64 nginx-common all 1.10.0-0ubuntu0.16.04.4 [26.6 kB]\r\n\r84% [12 nginx-common 0 B/26.6 kB 0%] [Waiting for headers]\r                                                          \r86% [Waiting for headers]"
+    ],
+    [
+      0.06931,
+      "\r86% [Waiting for headers]"
+    ],
+    [
+      0.00435,
+      "\r                         \rGet:13 http://nyc2.mirrors.digitalocean.com/ubuntu xenial-updates/main amd64 nginx-core amd64 1.10.0-0ubuntu0.16.04.4 [428 kB]\r\n\r86% [13 nginx-core 0 B/428 kB 0%] [Waiting for headers]"
+    ],
+    [
+      0.022435,
+      "\r                                                       \r"
+    ],
+    [
+      0.001044,
+      "98% [Waiting for headers]"
+    ],
+    [
+      0.128649,
+      "\r                         \r98% [Working]\r             \rGet:14 http://nyc2.mirrors.digitalocean.com/ubuntu xenial-updates/main amd64 nginx all 1.10.0-0ubuntu0.16.04.4 [3,498 B]\r\n\r98% [14 nginx 0 B/3,498 B 0%]\r                             \r100% [Working]"
+    ],
+    [
+      0.000104,
+      "\r              \rFetched 2,999 kB in 1s (2,509 kB/s)\r\n"
+    ],
+    [
+      0.6548,
+      "Preconfiguring packages ...\r\n"
+    ],
+    [
+      0.235076,
+      "Selecting previously unselected package libjpeg-turbo8:amd64.\r\n"
+    ],
+    [
+      0.002347,
+      "(Reading database ... \r"
+    ],
+    [
+      0.02664,
+      "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r"
+    ],
+    [
+      0.029595,
+      "(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r(Reading database ... 60%\r"
+    ],
+    [
+      0.002172,
+      "(Reading database ... 65%\r"
+    ],
+    [
+      0.098211,
+      "(Reading database ... 70%\r(Reading database ... 75%\r"
+    ],
+    [
+      0.004298,
+      "(Reading database ... 80%\r"
+    ],
+    [
+      0.027379,
+      "(Reading database ... 85%\r"
+    ],
+    [
+      0.01532,
+      "(Reading database ... 90%\r"
+    ],
+    [
+      0.097345,
+      "(Reading database ... 95%\r"
+    ],
+    [
+      0.028774,
+      "(Reading database ... 100%\r(Reading database ... 53855 files and directories currently installed.)\r\n"
+    ],
+    [
+      0.007314,
+      "Preparing to unpack .../libjpeg-turbo8_1.4.2-0ubuntu3_amd64.deb ...\r\n"
+    ],
+    [
+      0.007595,
+      "Unpacking libjpeg-turbo8:amd64 (1.4.2-0ubuntu3) ...\r\n"
+    ],
+    [
+      0.119044,
+      "Selecting previously unselected package libjbig0:amd64.\r\n"
+    ],
+    [
+      0.011478,
+      "Preparing to unpack .../libjbig0_2.1-3.1_amd64.deb ...\r\n"
+    ],
+    [
+      0.00211,
+      "Unpacking libjbig0:amd64 (2.1-3.1) ...\r\n"
+    ],
+    [
+      0.050274,
+      "Selecting previously unselected package fonts-dejavu-core.\r\n"
+    ],
+    [
+      0.005473,
+      "Preparing to unpack .../fonts-dejavu-core_2.35-1_all.deb ...\r\n"
+    ],
+    [
+      0.00875,
+      "Unpacking fonts-dejavu-core (2.35-1) ..."
+    ],
+    [
+      0.001259,
+      "\r\n"
+    ],
+    [
+      0.369476,
+      "Selecting previously unselected package fontconfig-config.\r\n"
+    ],
+    [
+      0.014084,
+      "Preparing to unpack .../fontconfig-config_2.11.94-0ubuntu1.1_all.deb ...\r\n"
+    ],
+    [
+      0.020348,
+      "Unpacking fontconfig-config (2.11.94-0ubuntu1.1) ..."
+    ],
+    [
+      0.000918,
+      "\r\n"
+    ],
+    [
+      0.296202,
+      "Selecting previously unselected package libfontconfig1:amd64.\r\n"
+    ],
+    [
+      0.007488,
+      "Preparing to unpack .../libfontconfig1_2.11.94-0ubuntu1.1_amd64.deb ...\r\n"
+    ],
+    [
+      0.021304,
+      "Unpacking libfontconfig1:amd64 (2.11.94-0ubuntu1.1) ...\r\n"
+    ],
+    [
+      0.10749,
+      "Selecting previously unselected package libjpeg8:amd64."
+    ],
+    [
+      0.00126,
+      "\r\n"
+    ],
+    [
+      0.006277,
+      "Preparing to unpack .../libjpeg8_8c-2ubuntu8_amd64.deb ..."
+    ],
+    [
+      0.001297,
+      "\r\n"
+    ],
+    [
+      0.00337,
+      "Unpacking libjpeg8:amd64 (8c-2ubuntu8) ..."
+    ],
+    [
+      0.002564,
+      "\r\n"
+    ],
+    [
+      0.149802,
+      "Selecting previously unselected package libtiff5:amd64.\r\n"
+    ],
+    [
+      0.002058,
+      "Preparing to unpack .../libtiff5_4.0.6-1ubuntu0.1_amd64.deb ...\r\n"
+    ],
+    [
+      0.005498,
+      "Unpacking libtiff5:amd64 (4.0.6-1ubuntu0.1) ...\r\n"
+    ],
+    [
+      0.30848,
+      "Selecting previously unselected package libvpx3:amd64.\r\nPreparing to unpack .../libvpx3_1.5.0-2ubuntu1_amd64.deb ...\r\nUnpacking libvpx3:amd64 (1.5.0-2ubuntu1) ...\r\n"
+    ],
+    [
+      0.062302,
+      "Selecting previously unselected package libxpm4:amd64.\r\n"
+    ],
+    [
+      0.004961,
+      "Preparing to unpack .../libxpm4_1%3a3.5.11-1ubuntu0.16.04.1_amd64.deb ...\r\n"
+    ],
+    [
+      0.002639,
+      "Unpacking libxpm4:amd64 (1:3.5.11-1ubuntu0.16.04.1) ...\r\n"
+    ],
+    [
+      0.049214,
+      "Selecting previously unselected package libgd3:amd64."
+    ],
+    [
+      0.001806,
+      "\r\n"
+    ],
+    [
+      0.006117,
+      "Preparing to unpack .../libgd3_2.1.1-4ubuntu0.16.04.6_amd64.deb ...\r\n"
+    ],
+    [
+      0.0031,
+      "Unpacking libgd3:amd64 (2.1.1-4ubuntu0.16.04.6) ...\r\n"
+    ],
+    [
+      0.069496,
+      "Selecting previously unselected package libxslt1.1:amd64.\r\n"
+    ],
+    [
+      0.005664,
+      "Preparing to unpack .../libxslt1.1_1.1.28-2.1_amd64.deb ...\r\n"
+    ],
+    [
+      0.003193,
+      "Unpacking libxslt1.1:amd64 (1.1.28-2.1) ...\r\n"
+    ],
+    [
+      0.081498,
+      "Selecting previously unselected package nginx-common.\r\n"
+    ],
+    [
+      0.007519,
+      "Preparing to unpack .../nginx-common_1.10.0-0ubuntu0.16.04.4_all.deb ...\r\n"
+    ],
+    [
+      0.099089,
+      "Unpacking nginx-common (1.10.0-0ubuntu0.16.04.4) ...\r\n"
+    ],
+    [
+      0.024581,
+      "Selecting previously unselected package nginx-core.\r\n"
+    ],
+    [
+      0.010947,
+      "Preparing to unpack .../nginx-core_1.10.0-0ubuntu0.16.04.4_amd64.deb ...\r\n"
+    ],
+    [
+      0.011858,
+      "Unpacking nginx-core (1.10.0-0ubuntu0.16.04.4) ...\r\n"
+    ],
+    [
+      0.113525,
+      "Selecting previously unselected package nginx.\r\n"
+    ],
+    [
+      0.003065,
+      "Preparing to unpack .../nginx_1.10.0-0ubuntu0.16.04.4_all.deb ...\r\n"
+    ],
+    [
+      0.004208,
+      "Unpacking nginx (1.10.0-0ubuntu0.16.04.4) ...\r\n"
+    ],
+    [
+      0.018917,
+      "Processing triggers for libc-bin (2.23-0ubuntu7) ...\r\n"
+    ],
+    [
+      0.139805,
+      "Processing triggers for man-db (2.7.5-1) ...\r\n"
+    ],
+    [
+      10.529154,
+      "Processing triggers for ufw (0.35-0ubuntu2) ...\r\n"
+    ],
+    [
+      0.282097,
+      "Rules updated for profile 'OpenSSH'\r\nSkipped reloading firewall\r\nProcessing triggers for ureadahead (0.100.0-19) ...\r\n"
+    ],
+    [
+      0.416969,
+      "Processing triggers for systemd (229-4ubuntu16) ...\r\n"
+    ],
+    [
+      0.296063,
+      "Setting up libjpeg-turbo8:amd64 (1.4.2-0ubuntu3) ..."
+    ],
+    [
+      0.001193,
+      "\r\n"
+    ],
+    [
+      0.008272,
+      "Setting up libjbig0:amd64 (2.1-3.1) ...\r\n"
+    ],
+    [
+      0.014729,
+      "Setting up fonts-dejavu-core (2.35-1) ...\r\n"
+    ],
+    [
+      0.027986,
+      "Setting up fontconfig-config (2.11.94-0ubuntu1.1) ..."
+    ],
+    [
+      5e-05,
+      "\r\n"
+    ],
+    [
+      0.282872,
+      "Setting up libfontconfig1:amd64 (2.11.94-0ubuntu1.1) ...\r\nSetting up libjpeg8:amd64 (8c-2ubuntu8) ...\r\nSetting up libtiff5:amd64 (4.0.6-1ubuntu0.1) ...\r\nSetting up libvpx3:amd64 (1.5.0-2ubuntu1) ...\r\nSetting up libxpm4:amd64 (1:3.5.11-1ubuntu0.16.04.1) ...\r\nSetting up libgd3:amd64 (2.1.1-4ubuntu0.16.04.6) ...\r\nSetting up libxslt1.1:amd64 (1.1.28-2.1) ...\r\nSetting up nginx-common (1.10.0-0ubuntu0.16.04.4) ...\r\n"
+    ],
+    [
+      1.186113,
+      "Setting up nginx-core (1.10.0-0ubuntu0.16.04.4) ...\r\n"
+    ],
+    [
+      0.372664,
+      "Setting up nginx (1.10.0-0ubuntu0.16.04.4) ...\r\n"
+    ],
+    [
+      0.012846,
+      "Processing triggers for libc-bin (2.23-0ubuntu7) ...\r\n"
+    ],
+    [
+      0.017047,
+      "Processing triggers for systemd (229-4ubuntu16) ..."
+    ],
+    [
+      0.000939,
+      "\r\n"
+    ],
+    [
+      0.186661,
+      "Processing triggers for ureadahead (0.100.0-19) ..."
+    ],
+    [
+      0.00312,
+      "\r\n"
+    ],
+    [
+      0.324061,
+      "Processing triggers for ufw (0.35-0ubuntu2) ...\r\n"
+    ],
+    [
+      0.216944,
+      "Rules updated for profile 'OpenSSH'"
+    ],
+    [
+      0.003102,
+      "\r\nSkipped reloading firewall\r\n"
+    ],
+    [
+      2.62446,
+      "\u001b]0;eric@http: ~\u0007eric@http:~$ "
+    ],
+    [
+      2.560846,
+      "s"
+    ],
+    [
+      0.102892,
+      "u"
+    ],
+    [
+      0.255858,
+      "d"
+    ],
+    [
+      0.577381,
+      "o"
+    ],
+    [
+      0.99313,
+      " "
+    ],
+    [
+      0.521069,
+      "u"
+    ],
+    [
+      0.582327,
+      "f"
+    ],
+    [
+      0.697321,
+      "w"
+    ],
+    [
+      0.347308,
+      " "
+    ],
+    [
+      0.172814,
+      "a"
+    ],
+    [
+      0.46163,
+      "p"
+    ],
+    [
+      0.361312,
+      "p"
+    ],
+    [
+      0.095658,
+      " "
+    ],
+    [
+      0.299375,
+      "l"
+    ],
+    [
+      0.105062,
+      "i"
+    ],
+    [
+      0.604946,
+      "s"
+    ],
+    [
+      0.552283,
+      "t"
+    ],
+    [
+      0.594055,
+      "\r\n"
+    ],
+    [
+      0.388902,
+      "Available applications:\r\n  Nginx Full\r\n  Nginx HTTP\r\n  Nginx HTTPS\r\n  OpenSSH\r\n"
+    ],
+    [
+      0.051853,
+      "\u001b]0;eric@http: ~\u0007eric@http:~$ "
+    ],
+    [
+      3.657977,
+      "s"
+    ],
+    [
+      0.029901,
+      "u"
+    ],
+    [
+      0.414004,
+      "d"
+    ],
+    [
+      0.287997,
+      "o"
+    ],
+    [
+      0.708829,
+      " "
+    ],
+    [
+      0.788803,
+      "u"
+    ],
+    [
+      0.913396,
+      "f"
+    ],
+    [
+      0.203969,
+      "w"
+    ],
+    [
+      0.312153,
+      " "
+    ],
+    [
+      1.526585,
+      "a"
+    ],
+    [
+      0.165364,
+      "l"
+    ],
+    [
+      0.227117,
+      "l"
+    ],
+    [
+      0.153798,
+      "o"
+    ],
+    [
+      0.554956,
+      "w"
+    ],
+    [
+      0.132929,
+      " "
+    ],
+    [
+      1.431247,
+      "N"
+    ],
+    [
+      0.781217,
+      "\b \b"
+    ],
+    [
+      0.804528,
+      "'"
+    ],
+    [
+      0.495432,
+      "N"
+    ],
+    [
+      0.5843,
+      "g"
+    ],
+    [
+      0.464726,
+      "i"
+    ],
+    [
+      0.557822,
+      "n"
+    ],
+    [
+      0.440671,
+      "x"
+    ],
+    [
+      0.802868,
+      " "
+    ],
+    [
+      0.844499,
+      "F"
+    ],
+    [
+      0.477964,
+      "u"
+    ],
+    [
+      0.622541,
+      "ll"
+    ],
+    [
+      0.156518,
+      "'"
+    ],
+    [
+      1.932868,
+      "\r\n"
+    ],
+    [
+      0.56179,
+      "Rule added"
+    ],
+    [
+      0.001087,
+      "\r\nRule added (v6)\r\n"
+    ],
+    [
+      0.04192,
+      "\u001b]0;eric@http: ~\u0007eric@http:~$ "
+    ],
+    [
+      2.128684,
+      "s"
+    ],
+    [
+      0.315857,
+      "u"
+    ],
+    [
+      0.051379,
+      "d"
+    ],
+    [
+      0.341553,
+      "o"
+    ],
+    [
+      0.395534,
+      " "
+    ],
+    [
+      0.41609,
+      "u"
+    ],
+    [
+      0.953542,
+      "f"
+    ],
+    [
+      0.434246,
+      "w"
+    ],
+    [
+      0.605636,
+      " "
+    ],
+    [
+      0.469981,
+      "s"
+    ],
+    [
+      0.159179,
+      "t"
+    ],
+    [
+      0.420545,
+      "a"
+    ],
+    [
+      0.091169,
+      "t"
+    ],
+    [
+      0.348705,
+      "u"
+    ],
+    [
+      0.555648,
+      "s"
+    ],
+    [
+      1.048641,
+      "\r\n"
+    ],
+    [
+      0.092667,
+      "Status: active\r\n\r\nTo                         Action      From\r\n--                         ------      ----\r\nOpenSSH                    ALLOW       Anywhere                  \r\nNginx Full                 ALLOW       Anywhere                  \r\nOpenSSH (v6)               ALLOW       Anywhere (v6)             \r\nNginx Full (v6)            ALLOW       Anywhere (v6)             \r\n\r\n"
+    ],
+    [
+      0.038711,
+      "\u001b]0;eric@http: ~\u0007eric@http:~$ "
+    ],
+    [
+      3.778411,
+      "s"
+    ],
+    [
+      0.285332,
+      "y"
+    ],
+    [
+      0.054461,
+      "s"
+    ],
+    [
+      0.454591,
+      "t"
+    ],
+    [
+      0.660443,
+      "e"
+    ],
+    [
+      0.350461,
+      "m"
+    ],
+    [
+      0.63143,
+      "c"
+    ],
+    [
+      0.424693,
+      "t"
+    ],
+    [
+      0.300334,
+      "l"
+    ],
+    [
+      1.376273,
+      " "
+    ],
+    [
+      0.388337,
+      "s"
+    ],
+    [
+      0.230031,
+      "t"
+    ],
+    [
+      0.426593,
+      "a"
+    ],
+    [
+      0.017354,
+      "t"
+    ],
+    [
+      0.376908,
+      "u"
+    ],
+    [
+      0.240918,
+      "s"
+    ],
+    [
+      0.633637,
+      " "
+    ],
+    [
+      0.29147,
+      "n"
+    ],
+    [
+      0.94196,
+      "g"
+    ],
+    [
+      0.589213,
+      "i"
+    ],
+    [
+      0.478238,
+      "n"
+    ],
+    [
+      0.625597,
+      "x"
+    ],
+    [
+      0.760543,
+      "\r\n"
+    ],
+    [
+      0.100433,
+      "WARNING: terminal is not fully functional\r\n\r-  (press RETURN)"
+    ],
+    [
+      2.442578,
+      "\r"
+    ],
+    [
+      0.002117,
+      "\r\u001b[0;1;32m●\u001b[0m nginx.service - A high performance web server and a reverse proxy server\u001b[m\r\n   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en\u001b[m\r\n"
+    ],
+    [
+      0.002125,
+      "   Active: \u001b[0;1;32mactive (running)\u001b[0m since Wed 2017-04-26 13:37:44 UTC; 58s ago\u001b[m\r\n Main PID: 12573 (nginx)\u001b[m"
+    ],
+    [
+      2.9e-05,
+      "\r\n"
+    ],
+    [
+      0.053882,
+      "   CGroup: /system.slice/nginx.service\u001b[m\r\n           ├─12573 nginx: master process /usr/sbin/nginx -g daemon on; master_pr\u001b[m\r\n           └─12574 nginx: worker process                           \u001b[m\r\nlines 1-7/7 (END)"
+    ],
+    [
+      4.507477,
+      "\r"
+    ],
+    [
+      0.000743,
+      "\u0007\rlines 1-7/7 (END)"
+    ],
+    [
+      2.621799,
+      "\r"
+    ],
+    [
+      5.2e-05,
+      "\u0007\rlines 1-7/7 (END)"
+    ],
+    [
+      4.197237,
+      "\r\u0007\rlines 1-7/7 (END)"
+    ],
+    [
+      0.175421,
+      "\r\u0007\rlines 1-7/7 (END)"
+    ],
+    [
+      1.915259,
+      "\r\n\u001b]0;eric@http: ~\u0007eric@http:~$ "
+    ],
+    [
+      0.410745,
+      "^C\r\n\u001b]0;eric@http: ~\u0007eric@http:~$ "
+    ],
+    [
+      1.059154,
+      "logout\r\n"
+    ],
+    [
+      0.000198,
+      "Connection to http.citizen.io closed.\r\r\n"
+    ],
+    [
+      0.000981,
+      "bash-3.2$ "
+    ]
+  ]
+}

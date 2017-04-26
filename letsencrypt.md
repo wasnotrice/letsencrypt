@@ -100,7 +100,6 @@ add DNS out-of-band
 - htts.citizen.io
 
 1. Add user
-
 ```
 adduser eric
 usermod -aG sudo eric
@@ -136,6 +135,62 @@ sudo ufw allow OpenSSH
 sudo ufw enable
 sudo ufw status
 ```
+
+Nginx
+
+```
+sudo apt-get update
+sudo apt-get install nginx
+
+sudo ufw app list
+sudo ufw allow 'Nginx Full'
+sudo ufw status
+
+systemctl status nginx
+
+sudo mkdir /var/www/http/html
+sudo mkdir /var/www/https/html
+sudo chown -R $USER:$USER /var/www/http/html
+sudo chown -R $USER:$USER /var/www/https/html
+
+vim /var/www/http/html/index.html
+```
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello, HTTP</title>
+</head>
+<body>
+  <h1>Hello, HTTP<h1>
+  <dl>
+    <dt>Are you encrypted?</dt>
+    <dd>No, no you are not.</dd>
+  </dl>
+</body>
+</html>
+
+```
+
+```
+cp /var/www/http/html/index.html /var/www/https/html/index.html
+sed -i.bak 's/HTTP/HTTPS/' /var/www/https/html/index.html
+sed -i.bak 's/No/Yes/' /var/www/https/html/index.html
+sed -i.bak 's/no/yes/' /var/www/https/html/index.html
+sed -i.bak 's/ not\./\. Good job\!/' /var/www/https/html/index.html
+rm -f index.html.bak
+
+sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/http
+sudo vim /etc/nginx/sites-available/http
+sudo cp /etc/nginx/sites-available/http /etc/nginx/sites-available/https
+sudo vim /etc/nginx/sites-available/https
+
+sudo ln -s /etc/nginx/sites-available/http /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/https /etc/nginx/sites-enabled/
+
+sudo nginx -t
+sudo systemctl restart nginx t
 ```
 ---
 
