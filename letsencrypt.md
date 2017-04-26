@@ -82,11 +82,12 @@ autoscale: true
 # Set up let's encrypt
 
 1. Fire up a web server
-2. Install let's encrypt agent (`certbot`)
-3. Expose the ACME endpoint
-4. Install a certificate
-5. Redirect http to https (optional)
-6. Schedule automatic renewal (optional)
+2. Expose the ACME endpoint
+3. Install let's encrypt agent (`certbot`)
+4. Issue/install a certificate
+5. Add certificate/key to web server config
+6. Redirect http to https (optional)
+7. Schedule automatic renewal (optional)
 
 ---
 
