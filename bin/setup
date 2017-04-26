@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -e
+
+install=`command -v brew`' install'
+
+command -v npm >/dev/null 2>&1 || {
+  echo "Couldn't find npm. Please install it..."
+  exit 1
+}
+
+command -v asciinema >/dev/null 2>&1 || {
+  echo "Couldn't find asciinema. Installing..."
+  $($install asciinema)
+}
+
+command -v node >/dev/null 2>&1 || {
+  echo "Couldn't find node. Please install it..."
+  exit 1
+}
+
+node_version=`node --version`
+node_major_version=$(echo $node_version | cut -c 2)
+if [[ "${node_major_version}" -lt "6" ]]; then
+  echo "node ${node_version} is out of date (needs to be >= 6.0.0)"
+fi
+
+echo "Setup complete, now off you go."
+

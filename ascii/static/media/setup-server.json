@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 0.012136,
+  "command": "/bin/bash --rcfile /Users/eric/Dropbox/talks/letsencrypt/.ascii-bashrc",
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color-italic",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.011343,
+      "\u001b[?1034hbash-3.2$ "
+    ]
+  ]
+}
