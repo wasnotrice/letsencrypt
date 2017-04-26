@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Start the asciicast server
-
-pushd ascii 2>&1 > /dev/null
-node server.js
-popd
