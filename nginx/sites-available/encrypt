@@ -1,0 +1,41 @@
+server {
+	listen 80;
+	listen [::]:80;
+
+	server_name encrypt.citizen.io;
+
+	root /var/www/encrypt/html;
+	index index.html;
+
+	location / {
+		try_files $uri $uri/ =404;
+	}
+
+	# Allow access to /.well-known
+	# location ^~ /.well-known {
+	# 	allow all;
+	# }
+
+        # Redirect all requests to https:
+	# return 301 https://$server_name$request_url;	
+}
+
+# server {
+# 	listen 443 ssl http2;
+# 	listen [::]:443 ssl http2;
+# 
+# 	include snippets/ssl-encrypt.conf;
+# 
+# 	server_name encrypt.citizen.io;
+# 
+# 	root /var/www/encrypt/html;
+# 	index index.html;
+# 
+# 	location ^~ /.well-known {
+# 		allow all;
+# 	}
+# 
+# 	location / {
+# 		try_files $uri $uri/ =404;
+# 	}
+# }
