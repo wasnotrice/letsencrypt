@@ -16,8 +16,8 @@ server {
 	# 	allow all;
 	# }
 
-        # Redirect all requests to https:
-	# return 301 https://$server_name$request_url;	
+	# Redirect all requests to https:
+	# return 301 https://$server_name$request_uri;
 }
 
 # server {
