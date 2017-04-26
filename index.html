@@ -3,22 +3,58 @@
 <head>
   <title>Hello, HTTP</title>
   <style type="text/css">
-    .https {
+    html {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      color: #eee;
+    }
+
+    .title {
+      font-size: 2em;
+      display: inline-block;
+      width: 47.5%;
+      margin-left: 2%;
+    }
+
+    body.http {
+      background-color: #cb1a1a;
+    }
+
+    body.https {
       background-image: url(https://i.imgflip.com/1nxicw.jpg);
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center;
+      background-color: #089f3a;
+    }
+
+    .content {
+      background-color: #33333366;
+      position: relative;
+      padding 0 1em;
+    }
+
+    #actions {
+      display: inline-block;
+      width: 48.5%;
+      text-align: right;
+      margin-right: 1%;
     }
   </style>
 </head>
-<body>
-  <form action="#">
-    <input type="checkbox" id="simulate-https" />
-    <label for="simulate-https">simulate <code>https</code></label>
-  </form>
-
-  <h1>Hello, HTTP</h1>
-  <p>Are we encrypted? <span class="encryption">No</span></p>
+<body class="http">
+  <div class="content">
+    <span class="title">Hello, HTTP</span>
+    <form id="actions" action="#">
+      <input type="checkbox" id="simulate-https" />
+      <label for="simulate-https">simulate <code>https</code></label>
+    </form>
+  </div>
   <script type="text/javascript">
     function show(options) {
       document.querySelector('body').className = options.body
