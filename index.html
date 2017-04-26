@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello, HTTP</title>
+  <style type="text/css">
+    .https {
+      background-image: url(https://i.imgflip.com/1nxicw.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <form action="#">
+    <input type="checkbox" id="simulate-https" />
+    <label for="simulate-https">simulate <code>https</code></label>
+  </form>
+
+  <h1>Hello, HTTP</h1>
+  <p>Are we encrypted? <span class="encryption">No</span></p>
+  <script type="text/javascript">
+    function show(options) {
+      document.querySelector('body').className = options.body
+      document.querySelectorAll('h1, title').forEach(function (el) {
+        el.innerHTML = options.title
+      })
+    }
+
+    function showNotHTTPS() {
+      show({body: 'http', title: 'Hello, HTTP'})
+    }
+
+    function showHTTPS() {
+      show({body: 'https', title: 'Hello, HTTPS'})
+    }
+
+    var checkbox = document.querySelector("#simulate-https")
+    checkbox.addEventListener('change', function(e) {
+      if (e.target.checked) {
+        showHTTPS()
+      } else {
+        if (document.location.protocol === 'https:') {
+          return
+        }
+
+        showNotHTTPS()
+      }
+    })
+
+    if (document.location.protocol === "https:") {
+      showHTTPS()
+    }
+  </script>
+</body>
+</html>
