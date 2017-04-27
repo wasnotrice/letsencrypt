@@ -1,5 +1,6 @@
 build-lists: true
 autoscale: true
+theme: Next, 0
 
 # Let's encrypt
 
@@ -24,6 +25,7 @@ autoscale: true
 - prevents man-in-the-middle attacks
 - prevents replay attacks
 - improved search engine rankings
+- http/2 requires TLS
 
 ---
 
@@ -52,8 +54,6 @@ autoscale: true
 
 ---
 
-# The insight
-
 > If we make this easier, more people will do it
 
 ---
@@ -69,13 +69,17 @@ autoscale: true
 ## Automate the manual steps
 
 - [ACME](https://ietf-wg-acme.github.io/acme/) (Automatic Certificate Management Environment)
-- Many [clients available](https://letsencrypt.org/docs/client-options/) besides default
+- Many [other clients](https://letsencrypt.org/docs/client-options/) available
 
 ---
 
-# HTTP/2 is coming
+# How it works
 
-## and it's https:// only
+ACME client manages the challenge, verification, downloading, and renewal  of certificates. You still have to:
+
+1. Run certbot
+2. Make sure your web server can serve the challenge URL
+3. Install certificates in your web server once
 
 ---
 
@@ -98,6 +102,8 @@ autoscale: true
 # Thank you!
 
 ---
+[.build-lists: false]
+[.footer: Eric Watson, @wasnotrice]
 
 # Resources
 
@@ -110,9 +116,4 @@ Certbot
 
 - https://certbot.eff.org
 - https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04
-
-SEO
-
-- https://support.google.com/webmasters/answer/6073543?hl=en
-
 
