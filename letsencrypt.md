@@ -20,12 +20,12 @@ theme: Next, 0
 
 # Benefits of TLS
 
+- keeps data private
 - guarantees content integrity
-- prevents eavesdropping
 - prevents man-in-the-middle attacks
 - prevents replay attacks
 - improved search engine rankings
-- http/2 requires TLS
+- allows use of http/2
 
 ---
 
