@@ -3,22 +3,10 @@
 <head>
   <title>Hello, HTTP</title>
   <style type="text/css">
-    html {
+    html, body {
       padding: 0;
       margin: 0;
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
       color: #eee;
-    }
-
-    .title {
-      font-size: 2em;
-      display: inline-block;
-      width: 47.5%;
-      margin-left: 2%;
     }
 
     body.http {
@@ -35,18 +23,24 @@
 
     .content {
       background-color: #33333366;
-      position: relative;
       padding: 0 1em;
     }
 
-    .actions {
+    .title {
       display: inline-block;
-      width: 48.5%;
-      text-align: right;
-      margin-right: 1%;
+      font-size: 2em;
+      height: 1.5em;
+      margin: 0.1em 0.5em 0 0;
     }
 
-    .actions.hidden {
+    .content button {
+      float: right;
+      font-size: 1em;
+      height: 2em;
+      margin: 0.5em;
+    }
+
+    .hidden {
       display: none;
     }
   </style>
@@ -54,10 +48,7 @@
 <body class="http">
   <div class="content">
     <span class="title">Hello, HTTP</span>
-    <form class="actions" action="#">
-      <input type="checkbox" id="simulate-https" />
-      <label for="simulate-https">simulate <code>https</code></label>
-    </form>
+    <button id="simulate-https">Simulate https</button>
   </div>
   <script type="text/javascript">
     function show(options) {
@@ -65,21 +56,27 @@
       document.querySelectorAll('.title, title').forEach(function (el) {
         el.innerHTML = options.title
       })
+      document.querySelector('#simulate-https').innerHTML = options.button
     }
 
     function showNotHTTPS() {
-      show({body: 'http', title: 'Hello, HTTP'})
+      show({body: 'http', title: 'Hello, HTTP', button: 'Simulate https'})
     }
 
     function showHTTPS() {
-      show({body: 'https', title: 'Hello, HTTPS'})
+      show({body: 'https', title: 'Hello, HTTPS', button: 'Stop simulating'})
     }
 
-    var checkbox = document.querySelector("#simulate-https")
-    checkbox.addEventListener('change', function(e) {
-      if (e.target.checked) {
+    var button = document.querySelector("#simulate-https")
+    var isSimulatingHTTPS = false
+
+    button.addEventListener('click', function(e) {
+      if (!isSimulatingHTTPS) {
+        isSimulatingHTTPS = true
         showHTTPS()
       } else {
+        isSimulatingHTTPS = false
+
         if (document.location.protocol === 'https:') {
           return
         }
@@ -90,7 +87,7 @@
 
     if (document.location.protocol === "https:") {
       showHTTPS()
-      document.querySelector(".actions").className = 'actions hidden'
+      document.querySelector('#simulate-https').className = 'hidden'
     }
   </script>
 </body>
