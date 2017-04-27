@@ -1,7 +1,7 @@
 # add DNS out-of-band
 #
-# - http.citizen.io
-# - https.citizen.io
+# - no-encrypt.citizen.io
+# - encrypt.citizen.io
 #
 # ssh into server
 
@@ -35,29 +35,23 @@ sudo ufw status
 
 systemctl status nginx
 
-sudo mkdir /var/www/http/html
-sudo mkdir /var/www/https/html
-sudo chown -R $USER:$USER /var/www/http/html
-sudo chown -R $USER:$USER /var/www/https/html
+sudo mkdir /var/www/no-encrypt/html
+sudo mkdir /var/www/encrypt/html
+sudo chown -R $USER:$USER /var/www/no-encrypt/html
+sudo chown -R $USER:$USER /var/www/encrypt/html
 
 # Copy index.html from local machine
-# rsync -avz index.html http.citizen.io:/var/www/http/html/index.html
+# rsync -avz index.html encrypt.citizen.io:/var/www/no-encrypt/html/index.html
+# rsync -avz index.html encrypt.citizen.io:/var/www/encrypt/html/index.html
 
-cp /var/www/http/html/index.html /var/www/https/html/index.html
-sed -i.bak 's/HTTP/HTTPS/' /var/www/https/html/index.html
-sed -i.bak 's/No/Yes/' /var/www/https/html/index.html
-sed -i.bak 's/no/yes/' /var/www/https/html/index.html
-sed -i.bak 's/ not\./\. Good job\!/' /var/www/https/html/index.html
-sed -i.bak 's/<body>/<body class="https">/' /var/www/https/html/index.html
-rm -f index.html.bak
 
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/http
-sudo vim /etc/nginx/sites-available/http
-sudo cp /etc/nginx/sites-available/http /etc/nginx/sites-available/https
-sudo vim /etc/nginx/sites-available/https
+sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/no-encrypt
+sudo vim /etc/nginx/sites-available/no-encrypt
+sudo cp /etc/nginx/sites-available/no-encrypt /etc/nginx/sites-available/encrypt
+sudo vim /etc/nginx/sites-available/encrypt
 
-sudo ln -s /etc/nginx/sites-available/http /etc/nginx/sites-enabled/
-sudo ln -s /etc/nginx/sites-available/https /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/no-encrypt /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/encrypt /etc/nginx/sites-enabled/
 
 sudo nginx -t
 sudo systemctl restart nginx t
